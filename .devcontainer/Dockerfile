@@ -13,5 +13,3 @@ RUN apt-get update && apt-get install -y \
 
 RUN cargo install probe-rs-tools
 RUN rustup target add thumbv7em-none-eabihf
-
-WORKDIR /workspace
